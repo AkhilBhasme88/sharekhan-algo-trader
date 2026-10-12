@@ -1,0 +1,15 @@
+<template>
+  <router-view />
+</template>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0f1115;
+  color: #e6e6e6;
+}
+</style>

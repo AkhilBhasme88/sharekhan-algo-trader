@@ -1,0 +1,22 @@
+{
+  "name": "sharekhan-algo-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "inspect-sdk": "node scripts/inspect-sdk.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "sharekhan-algo-trader": "file:..",
+    "sharekhan-api": "github:Sharekhan-API/shareconnectnodejs"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
